@@ -1,0 +1,122 @@
+body {
+    margin: 0%;
+    background-color: #F1F1F1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    min-width: 100vm; 
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 8px 13px;
+}
+
+header h1 {
+    color: #C95908;
+    cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+}
+
+header .menu ul {
+ color: #C95908;
+}
+
+.header {
+    font-family: 'Cabin,' sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1036px;
+    margin: 0% auto;
+}
+.menu {
+    display: flex;
+}
+
+.menu_item {
+    flex-grow: 1;
+    color: #C95908;
+    list-style: none;
+    margin-left: 31px;
+    display: flex;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+.link_logo {
+    display: flex;
+}
+
+.head_title {
+    color: #C95908;
+    font-size: 1.87em;
+    font-weight: 400;
+}
+
+.logo {
+    display: flex; 
+}
+
+
+.banner {
+    max-width: 1030px;
+    margin: 0% auto;
+}
+
+.banner img {
+    margin: 0% auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.scofano {
+    background-color: #C95908;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.scofano h1 {
+    color: #ffff;
+    font-family: 'Habibi' ,serif;
+    letter-spacing: 35px;
+    font-size: 3em;
+    text-align: center;
+    margin: 22px 0px 18px 19px;
+}
+
+.scofano  .corpora {
+    color: #2C2C2C;
+    font-family: 'Abee Zee', sans-serif;
+    margin:  20px 0px ;
+    font-size: 2.5em;
+    letter-spacing: 9px;
+    font-weight: 600;
+}
+
+.scofano  .qualiti {
+    color: #2C2C2C;
+    font-family: 'Abee Zee', sans-serif;
+    margin: 60px 0px;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
